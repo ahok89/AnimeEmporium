@@ -1,19 +1,70 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
   render() {
     return (
+
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+
+          <h2>Welcome to Anime Emporium</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                image
+
+                
+    </div>
+              <div class="col">
+                Synopsis
+    </div>
+              <div class="col">
+                <ul>
+                  <li>Average Score</li>
+                  <li>Season</li>
+                  <li>Year Release</li>
+                  <li>Production Company</li>
+                  <li>All Time Ranking</li>
+                  <li>Weekly Ranking</li>
+                </ul>
+    </div>
+            </div>
+            <br></br>
+
+
+
+            <div class="row">
+              <div class="col">
+              <ul>
+                  <li>Status</li>
+                  <li>Episodes</li>
+                  <li>Your Score</li>
+                </ul>
+    </div>
+              <div class="col">
+                Video and Modal
+    </div>
+              <div class="col">
+              <ul>
+                  <li>Characters</li>
+                  <li>Voice Actors</li>
+                  <li>Add Scroll Bar</li>
+                </ul>
+    </div>
+            </div>
+          </div>
+
+
+
+<br></br>
+        We are An-Y.
         </p>
-      </div>
+      <p>We are a duo team, which consists of Andrew & Yadira, based out of Orlando, FL.</p>
+      </div >
+    
     );
   }
 }
