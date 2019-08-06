@@ -1,26 +1,26 @@
 import React from "react"
-import { Carousel } from "./components/Carousel";
+import Carousel from "./components/Carousel";
 
 export const Home = () => (
 
     <div className="App">
         <div className="App-header">
-        <div class="container">
-        <div class="row">
-            <div class="col">
+        <div className="container">
+        <div className="row">
+            <div className="col">
                 <h2>Anime Emporium</h2>
             </div>
 
-            <div class="col">
+            <div className="col">
                 genre drop down
         
             </div>
 
-            <div class="col">
+            <div className="col">
                 search bar 
             </div>
 
-              <div class="col login">
+              <div className="col login">
                 login/sign up 
             </div>
 
@@ -30,39 +30,42 @@ export const Home = () => (
 <br></br>
 
         <p className="App-intro">
-          <div class="container">
-            <div class="row">
-              <div class="col upcoming">
+          <div className="container">
+            <div className="row">
+              <div className="col upcoming">
                 upcoming anime:
                 </div>
                 </div>
                 <br></br>
 
-                <div class="container">
-            <div class="row">
-              <div class="col random">
+                <div className="container">
+            <div className="row">
+              <div className="col random">
                 random anime
                 </div>
             </div>
             </div>
             <br></br>
 
-            <div class="container">
-            <div class="row">
-              <div class="col carousel">
-              carousel
+            <div className="container">
+            <div className="row">
+              <div className="col carousel">
+
+  <Carousel/>
+<div></div>
+
                 </div>
             </div>
             </div>
 
-            <div class="row">
-              <div class="col">
+            <div className="row">
+              <div className="col">
               popular anime
                 </div>
             </div>
 
-            <div class="row">
-              <div class="col">
+            <div className="row">
+              <div className="col">
               all time favorite anime
                 </div>
             </div>
