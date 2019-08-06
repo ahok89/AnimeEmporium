@@ -1,34 +1,19 @@
 import React from "react"
 import Carousel from "./components/Carousel";
+import styled from "styled-components";
+
+const Styles = styled.div`
+
+.upcoming {
+  text-align: left;
+}
+
+`;
+
 
 export const Home = () => (
-
+<Styles>
     <div className="App">
-        <div className="App-header">
-        <div className="container">
-        <div className="row">
-            <div className="col">
-                <h2>Anime Emporium</h2>
-            </div>
-
-            <div className="col">
-                genre drop down
-        
-            </div>
-
-            <div className="col">
-                search bar 
-            </div>
-
-              <div className="col login">
-                login/sign up 
-            </div>
-
-</div>
-</div>
-</div>
-<br></br>
-
         <p className="App-intro">
           <div className="container">
             <div className="row">
@@ -49,10 +34,10 @@ export const Home = () => (
 
             <div className="container">
             <div className="row">
-              <div className="col carousel">
+              <div className="col">
 
-  <Carousel/>
-<div></div>
+                <Carousel/>
+                <div></div>
 
                 </div>
             </div>
@@ -71,11 +56,10 @@ export const Home = () => (
             </div>
           </div>
 
-
 <br></br>
         We are An-Y.
         </p>
       <p>We are a duo team, which consists of Andrew & Yadira, based out of Orlando, FL.</p>
       </div >
-    
+      </Styles>
 )

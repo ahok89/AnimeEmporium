@@ -7,13 +7,14 @@ import { Profile } from "./Profile";
 import { Search } from "./Search";
 import { NoMatch } from "./NoMatch";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import NavigationBar from "./components/NavigationBar";
 
 class App extends Component {
   render() {
     return (
 
 <React.Fragment>
+<NavigationBar />
 <Router>
   <Switch>
     <Route exact path="/" component={Home} />
