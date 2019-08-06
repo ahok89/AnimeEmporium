@@ -10,7 +10,7 @@ export const Profile = () => (
                 <h2>Profile</h2>
                 <br></br>
                 <p>image</p>
-                <p>namee</p>
+                <p>name</p>
                 <p>joined</p>
                 <p>forum-comment top 3</p>
             </div>
