@@ -5,7 +5,7 @@ import { Home } from "./Home";
 import { SignIn } from "./SignIn";
 import { Profile } from "./Profile";
 import { Search } from "./Search";
-import { Nothing } from "./Nothing";
+import { NoMatch } from "./NoMatch";
 
 class App extends Component {
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
     <Route path="/signin" component={SignIn} />
     <Route path="/profile" component={Profile} />
     <Route path="/search" component={Search} />
-    <Route component={Nothing} />
+    <Route component={NoMatch} />
   </Switch>
 </Router>
 </React.Fragment>
