@@ -6,6 +6,8 @@ import { SignIn } from "./SignIn";
 import { Profile } from "./Profile";
 import { Search } from "./Search";
 import { NoMatch } from "./NoMatch";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 class App extends Component {
   render() {

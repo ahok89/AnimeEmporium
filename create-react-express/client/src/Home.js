@@ -1,4 +1,5 @@
 import React from "react"
+import { Carousel } from "./components/Carousel";
 
 export const Home = () => (
 
@@ -7,44 +8,51 @@ export const Home = () => (
         <div class="container">
         <div class="row">
             <div class="col">
-                <h2>Welcome to the Anime Emporium</h2>
+                <h2>Anime Emporium</h2>
             </div>
 
             <div class="col">
                 genre drop down
+        
             </div>
 
             <div class="col">
                 search bar 
             </div>
 
-              <div class="col">
+              <div class="col login">
                 login/sign up 
             </div>
 
 </div>
 </div>
 </div>
+<br></br>
 
         <p className="App-intro">
           <div class="container">
             <div class="row">
-              <div class="col">
+              <div class="col upcoming">
                 upcoming anime:
                 </div>
+                </div>
+                <br></br>
 
-              <div class="col">
+                <div class="container">
+            <div class="row">
+              <div class="col random">
                 random anime
                 </div>
-
+            </div>
             </div>
             <br></br>
 
-
+            <div class="container">
             <div class="row">
-              <div class="col">
-              carosal
+              <div class="col carousel">
+              carousel
                 </div>
+            </div>
             </div>
 
             <div class="row">
