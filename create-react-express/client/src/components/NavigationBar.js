@@ -47,9 +47,8 @@ export default class Example extends React.Component {
                   <DropdownItem>
                     Option 2
                     </DropdownItem>
-                  <DropdownItem divider />
                   <DropdownItem>
-                    Reset
+                    Option 3
                     </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
