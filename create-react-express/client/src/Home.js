@@ -4,10 +4,23 @@ import styled from "styled-components";
 
 const Styles = styled.div`
 
-.upcoming {
-  text-align: left;
+.App-intro {
+background-color: blue;
 }
 
+.one {
+  text-align: left;
+  background-color: pink;
+  margin-right: 972px;
+}
+
+.third {
+  margin-left: 960px;
+  width: 15%;
+  text-align: right;
+  background-color: black;
+  color: white;
+}
 `;
 
 
@@ -16,23 +29,22 @@ export const Home = () => (
     <div className="App">
         <p className="App-intro">
           <div className="container">
-            <div className="row">
-              <div className="col upcoming">
-                upcoming anime:
+            <div className="row one">
+              <div className="col">
+                User:
                 </div>
                 </div>
-                <br></br>
 
-                <div className="container">
+                <div className="container third">
             <div className="row">
-              <div className="col random">
+              <div className="col">
                 random anime
                 </div>
             </div>
             </div>
             <br></br>
 
-            <div className="container">
+            <div className="container second">
             <div className="row">
               <div className="col">
 
@@ -42,24 +54,12 @@ export const Home = () => (
                 </div>
             </div>
             </div>
-
-            <div className="row">
-              <div className="col">
-              popular anime
-                </div>
-            </div>
-
-            <div className="row">
-              <div className="col">
-              all time favorite anime
-                </div>
-            </div>
           </div>
 
 <br></br>
         We are An-Y.
         </p>
-      <p>We are a duo team, which consists of Andrew & Yadira, based out of Orlando, FL.</p>
+      <p>An Orlando, FL duo team, which consists of Andrew & Yadira</p>
       </div >
       </Styles>
 )
