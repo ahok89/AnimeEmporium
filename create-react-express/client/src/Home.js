@@ -9,17 +9,19 @@ background-color: blue;
 }
 
 .one {
-  text-align: left;
-  background-color: pink;
-  margin-right: 972px;
-}
-
-.third {
-  margin-left: 960px;
-  width: 15%;
-  text-align: right;
   background-color: black;
   color: white;
+  text-align: left;
+  margin-right: 1095px;
+  width: 15%;
+}
+
+.second {
+  background-color: black;
+  color: white;
+  text-align: right;
+  margin-left: 1095px;
+  width: 15%;
 }
 `;
 
@@ -28,37 +30,27 @@ export const Home = () => (
 <Styles>
     <div className="App">
         <p className="App-intro">
-          <div className="container">
-            <div className="row one">
+          <div className="container one">
+            <div className="row">
               <div className="col">
                 User:
                 </div>
                 </div>
-
-                <div className="container third">
-            <div className="row">
-              <div className="col">
-                random anime
                 </div>
-            </div>
-            </div>
-            <br></br>
 
-            <div className="container second">
+            <div className="container third">
             <div className="row">
               <div className="col">
-
                 <Carousel/>
                 <div></div>
 
                 </div>
             </div>
             </div>
-          </div>
-
+        
 <br></br>
-        We are An-Y.
-        </p>
+</p>
+       <p>We are An-Y.</p>
       <p>An Orlando, FL duo team, which consists of Andrew & Yadira</p>
       </div >
       </Styles>

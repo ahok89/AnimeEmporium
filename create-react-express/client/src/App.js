@@ -8,6 +8,7 @@ import { Search } from "./Search";
 import { NoMatch } from "./NoMatch";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from "./components/NavigationBar";
+import Random from "./components/Random";
 
 
 class App extends Component {
@@ -16,6 +17,8 @@ class App extends Component {
 
 <React.Fragment>
 <NavigationBar />
+<br></br>
+<Random/>
 <br></br>
 
 <Router>
