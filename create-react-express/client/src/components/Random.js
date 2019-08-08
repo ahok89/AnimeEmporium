@@ -10,7 +10,7 @@ const Random = (props) => {
         <div className="container">
             <div className="row">
                 <div className="col-5">
-                    <Card>
+                    <Card color="secondary">
                         <CardImg top width="100%" src="#" alt="RANDOM-add image here placeholder image" />
                         <CardBody>
                             <CardTitle>Name: </CardTitle>
