@@ -10,8 +10,8 @@ const MainCard = (props) => {
         <div className="container">
             <div className="row">
                 <div className="col-5">
-                    <Card>
-                        <CardImg top width="100%" src="https://i.pinimg.com/originals/98/29/70/9829701198637e89d0dc62673a04203d.png" alt="placeholder image" />
+                    <Card body outline color="secondary">
+                        <CardImg top width="100%" src="https://www.pngkey.com/png/detail/125-1252177_kawaii-die-cut-vinyl-stickers-kawaii-stickers-black.png" alt="placeholder image" />
                         <CardBody>
                             <CardTitle>Name: </CardTitle>
                             <CardSubtitle>Joined: </CardSubtitle>
@@ -34,3 +34,7 @@ const MainCard = (props) => {
 };
 
 export default MainCard;
+
+
+
+// alt img src https://i.pinimg.com/originals/98/29/70/9829701198637e89d0dc62673a04203d.png
