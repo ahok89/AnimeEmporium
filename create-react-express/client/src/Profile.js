@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Card from "./components/Card";
 import Table from "./components/Table";
+import Table2 from "./components/Table2";
 
 const Styles = styled.div`
 
@@ -32,6 +33,10 @@ export const Profile = () => (
                 <div className="row">
                     <div className="col">
                     <Table />
+                    </div>
+
+                    <div className="col">
+                    <Table2 />
                     </div>
                 </div>
             </div>
