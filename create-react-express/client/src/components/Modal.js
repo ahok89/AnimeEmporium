@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import LoginForm from "./LoginForm";
 
 class ModalLogin extends React.Component {
   constructor(props) {
@@ -22,12 +23,12 @@ class ModalLogin extends React.Component {
       <div>
         <Button color="light" onClick={this.toggle}>{this.props.buttonLabel}<i class="fas fa-sign-in-alt"></i> Login</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Modal title</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Login</ModalHeader>
           <ModalBody>
-            Lorem ipsum dolor
+            <LoginForm/>
           </ModalBody>
           <ModalFooter>
-            <Button color="primary" onClick={this.toggle}>Do Something</Button>{' '}
+            <Button color="primary" onClick={this.toggle}>Submit</Button>{' '}
             <Button color="secondary" onClick={this.toggle}>Cancel</Button>
           </ModalFooter>
         </Modal>
