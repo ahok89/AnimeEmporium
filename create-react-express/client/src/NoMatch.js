@@ -21,7 +21,7 @@ export const NoMatch = () => (
     <Styles>
     <div>
     <h1>404</h1>
-    <p>Oops, you have reached a page that does not exist.</p>
+    <p>Where do you think you're' going?</p>
     </div>
     </Styles>
 )
