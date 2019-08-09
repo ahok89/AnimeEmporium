@@ -58,6 +58,10 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="#"><ModalSignUp/></NavLink>
               </NavItem>
+
+              <NavItem>
+                <Button href="#">Log Out <i class="fas fa-sign-out-alt"></i></Button>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
