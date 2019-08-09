@@ -37,11 +37,11 @@ class CarouselEx extends Component {
   }
 
   onExiting() {
-    this.animating = true;
+    this.animating = false;
   }
 
   onExited() {
-    this.animating = false;
+    this.animating = true;
   }
 
   next() {

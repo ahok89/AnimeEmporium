@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import SignUpForm from "./SignUpForm";
+import FormSignUp from "./FormSignUp";
 
 class ModalSignup extends React.Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class ModalSignup extends React.Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Sign Up</ModalHeader>
           <ModalBody>
-            <SignUpForm/>
+            <FormSignUp/>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Submit</Button>{' '}

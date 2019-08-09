@@ -1,6 +1,6 @@
 import React from "react";
-import Modal from "./Modal";
-import Modal2 from "./Modal2";
+import ModalLogin from "./ModalLogin";
+import ModalSignUp from "./ModalSignUp";
 import {
   Collapse,
   Navbar,
@@ -11,7 +11,7 @@ import {
   NavLink,
   Button, Form, FormGroup, Label, Input
 } from "reactstrap";
-import Dropdown from "./Dropdown";
+import ModalGenre from "./ModalGenre";
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -35,7 +35,7 @@ export default class Example extends React.Component {
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-            <Dropdown/>
+            <ModalGenre/>
               <br></br>
 
               <NavItem>
@@ -52,11 +52,11 @@ export default class Example extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#"><Modal/></NavLink>
+                <NavLink href="#"><ModalLogin/></NavLink>
               </NavItem>
 
               <NavItem>
-                <NavLink href="#"><Modal2/></NavLink>
+                <NavLink href="#"><ModalSignUp/></NavLink>
               </NavItem>
             </Nav>
           </Collapse>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import LoginForm from "./LoginForm";
+import FormGenre from "./FormGenre";
 
-class ModalLogin extends React.Component {
+class ModalGenre extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,11 +21,11 @@ class ModalLogin extends React.Component {
   render() {
     return (
       <div>
-        <Button color="light" onClick={this.toggle}>{this.props.buttonLabel}<i class="fas fa-sign-in-alt"></i> Login</Button>
+        <Button color="secondary" onClick={this.toggle}>{this.props.buttonLabel}Genre</Button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Login</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Genre</ModalHeader>
           <ModalBody>
-            <LoginForm/>
+            <FormGenre/>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={this.toggle}>Submit</Button>{' '}
@@ -37,4 +37,4 @@ class ModalLogin extends React.Component {
   }
 }
 
-export default ModalLogin;
+export default ModalGenre;
