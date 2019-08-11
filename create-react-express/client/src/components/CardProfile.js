@@ -1,12 +1,22 @@
-import React from 'react';
+import React from "react";
 import {
     Card, CardImg, CardText, CardBody,
     CardTitle, CardSubtitle, FormGroup, Label, Input, Button
-} from 'reactstrap';
+} from "reactstrap";
+import styled from "styled-components";
+
+const Styles = styled.div`
+
+.container {
+;
+}
+`;
 
 
 const MainCard = (props) => {
     return (
+        <Styles>
+        <React.Fragment>
         <div className="container">
             <div className="row">
                 <div className="col-5">
@@ -37,6 +47,8 @@ const MainCard = (props) => {
                 </div>
             </div>
         </div>
+        </React.Fragment>
+        </Styles>
     );
 };
 

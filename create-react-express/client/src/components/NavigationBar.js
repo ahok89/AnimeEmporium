@@ -12,6 +12,16 @@ import {
   Button, Form, FormGroup, Label, Input
 } from "reactstrap";
 import ModalGenre from "./ModalGenre";
+import styled from "styled-components";
+
+const Styles = styled.div`
+
+.name {
+color: #000;
+}
+`;
+
+
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -29,13 +39,14 @@ export default class Example extends React.Component {
   }
   render() {
     return (
+      <Styles>
       <div>
         <Navbar color="secondary" light expand="md">
-          <NavbarBrand href="/">Anime Emporium</NavbarBrand>
+          <NavbarBrand className="name" href="/">Anime Emporium</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
-            <ModalGenre/>
+                <ModalGenre/>
               <br></br>
 
               <NavItem>
@@ -60,12 +71,13 @@ export default class Example extends React.Component {
               </NavItem>
 
               <NavItem>
-                <Button href="#">Log Out <i class="fas fa-sign-out-alt"></i></Button>
+                <Button href="#">Log <i class="fas fa-sign-out-alt"></i> Out</Button>
               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
       </div>
+      </Styles>
     );
   }
 }

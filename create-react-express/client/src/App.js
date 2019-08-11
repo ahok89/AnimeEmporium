@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./Home";
 import { Profile } from "./Profile";
 import { Search } from "./Search";
 import { WatchList } from "./WatchList";
 import { NoMatch } from "./NoMatch";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./components/NavigationBar";
 import Random from "./components/Random";
 import User from "./components/User";
