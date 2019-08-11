@@ -21,7 +21,10 @@ export const NoMatch = () => (
     <Styles>
     <div>
     <h1>404</h1>
-    <p>Where do you think you're' going?</p>
+    <p>
+       
+        Where do you think you're' going?
+    </p>
     </div>
     </Styles>
 )

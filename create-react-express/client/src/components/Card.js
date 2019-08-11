@@ -1,7 +1,7 @@
 import React from 'react';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Col, FormGroup, Label, Input,
+    CardTitle, CardSubtitle, FormGroup, Label, Input, Button
 } from 'reactstrap';
 
 
@@ -15,14 +15,21 @@ const MainCard = (props) => {
                         <CardBody>
                             <CardTitle>Name: </CardTitle>
                             <CardSubtitle>Joined: </CardSubtitle>
+                            <CardSubtitle>Location: </CardSubtitle>
+                            <CardSubtitle>Current Meetups: </CardSubtitle>
                             <br></br>
                             <CardText>
-                            <FormGroup row>
-                                    <Label for="exampleText" sm={2}>Text Area</Label>
-                                    <Col sm={10}>
-                                        <Input type="textarea" name="text" id="exampleText" />
-                                    </Col>
+                                <FormGroup row>
+                                    <Label for="exampleSelectMulti">Top 4 Favorite Anime</Label>
+                                    <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        {/* <option>5</option> */}
+                                    </Input>
                                 </FormGroup>
+                                <Button>Chat Now <i class="far fa-comment-dots"></i></Button>
                             </CardText>
                         </CardBody>
                     </Card>
