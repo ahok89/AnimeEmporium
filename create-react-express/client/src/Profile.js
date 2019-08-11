@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Card from "./components/Card";
+import CardProfile from "./components/CardProfile";
 
 const Styles = styled.div`
 
@@ -12,7 +12,7 @@ export const Profile = () => (
     <Styles>
         <div className="App">
 
-            <div className="container profile">
+            <div className="container">
                 <div className="row">
                     <div className="col">
                         <h2>Profile</h2>
@@ -21,7 +21,7 @@ export const Profile = () => (
 
                 <div className="row">
                     <div className="col">
-                        <Card />
+                        <CardProfile />
                     </div>
                 </div>
             </div>
