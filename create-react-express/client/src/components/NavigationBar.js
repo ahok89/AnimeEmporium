@@ -17,7 +17,8 @@ import styled from "styled-components";
 const Styles = styled.div`
 
 .name {
-color: #000;
+color: white;
+font-size: 50px;
 }
 `;
 
@@ -41,7 +42,7 @@ export default class Example extends React.Component {
     return (
       <Styles>
       <div>
-        <Navbar color="secondary" light expand="md">
+        <Navbar color="secondary" expand="md">
           <NavbarBrand className="name" href="/">Anime Emporium</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
