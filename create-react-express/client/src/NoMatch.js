@@ -5,12 +5,16 @@ const Styles = styled.div`
 
 h1 {
  font-family: 'Ewert', cursive;
- font-size: 200px;
+ font-size: 230px;
  text-align: center;
 }
 
 p {
 text-align: center;
+}
+
+.fas {
+    font-size: 30px;
 }
 
 `;
@@ -22,8 +26,7 @@ export const NoMatch = () => (
     <div>
     <h1>404</h1>
     <p>
-       
-        Where do you think you're' going?
+    <i class="fas fa-exclamation-triangle"></i>  Where do you think you're' going?  <i class="fas fa-exclamation-triangle"></i>
     </p>
     </div>
     </Styles>
