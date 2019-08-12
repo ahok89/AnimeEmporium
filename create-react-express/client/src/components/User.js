@@ -7,10 +7,6 @@ import styled from "styled-components";
 
 const Styles = styled.div`
 
-.container {
-    margin-right: 50px;
-}
-
 .fas {
 font-size: 100px;
 color: white;

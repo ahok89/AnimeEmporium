@@ -7,8 +7,8 @@ import styled from "styled-components";
 
 const Styles = styled.div`
 
-.container {
-;
+.img {
+// width: 150px;
 }
 `;
 
@@ -21,7 +21,7 @@ const MainCard = (props) => {
             <div className="row">
                 <div className="col-5">
                     <Card body outline color="secondary">
-                        <CardImg top width="100%" src="https://www.pngkey.com/png/detail/125-1252177_kawaii-die-cut-vinyl-stickers-kawaii-stickers-black.png" alt="placeholder image" />
+                        <CardImg className="img" top width="100%" src="https://www.pngkey.com/png/detail/125-1252177_kawaii-die-cut-vinyl-stickers-kawaii-stickers-black.png" alt="placeholder image" />
                         <CardBody>
                             <CardTitle>Name: </CardTitle>
                             <CardSubtitle>Joined: </CardSubtitle>

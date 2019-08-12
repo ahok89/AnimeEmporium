@@ -1,6 +1,6 @@
-import React from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
-import classnames from 'classnames';
+import React from "react";
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from "reactstrap";
+import classnames from "classnames";
 import Table from "../components/Table";
 import Table2 from "../components/Table2";
 

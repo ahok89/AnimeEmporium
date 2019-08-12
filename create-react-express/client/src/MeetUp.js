@@ -1,31 +1,25 @@
 import React from "react";
-import styled from "styled-components";
-import CardProfile from "./components/CardProfile";
-
-const Styles = styled.div`
+import CardMeetUp from "./components/CardMeetUp";
 
 
-`;
+export const MeetUp = () => (
 
-
-export const Profile = () => (
-    <Styles>
         <div className="App">
 
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h2>Profile</h2>
+                        <h2>Meet Ups</h2>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="col">
-                        <CardProfile />
+                        <CardMeetUp />
                     </div>
                 </div>
             </div>
 
             </div>
-    </Styles>
+  
         )

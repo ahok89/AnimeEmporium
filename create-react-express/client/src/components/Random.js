@@ -1,15 +1,14 @@
-import React from 'react';
+import React from "react";
 import {
     Card, CardImg, CardBody,
-    CardTitle, Row, Col } from 'reactstrap';
+    CardTitle, Row, Col } from "reactstrap";
 import styled from "styled-components";
 
 const Styles = styled.div`
 
 .container {
-margin-left: 550px;
-}
 
+}
 `;
 
 

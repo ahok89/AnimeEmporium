@@ -1,5 +1,5 @@
-import React from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import React from "react";
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
 import FormSignUp from "./FormSignUp";
 
 class ModalSignup extends React.Component {

@@ -1,5 +1,5 @@
-import React from 'react';
-import { Form, FormGroup, Label, Input } from 'reactstrap';
+import React from "react";
+import { Form, FormGroup, Label, Input } from "reactstrap";
 
 export default class Checkbox extends React.Component {
   render() {

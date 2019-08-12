@@ -1,7 +1,7 @@
-import React from "react"
+import React from "react";
 import CardSearch from "./components/CardSearch";
 import CardGenre from "./components/CardGenre";
-import { Row, Col } from 'reactstrap';
+import { Row, Col } from "reactstrap";
 
 
 export const Search = () => (
