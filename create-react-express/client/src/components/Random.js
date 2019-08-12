@@ -1,25 +1,34 @@
 import React from 'react';
 import {
     Card, CardImg, CardBody,
-    CardTitle
-} from 'reactstrap';
+    CardTitle, Row, Col } from 'reactstrap';
+import styled from "styled-components";
+
+const Styles = styled.div`
+
+.container {
+margin-left: 550px;
+}
+
+`;
 
 
 const Random = (props) => {
     return (
+        <Styles>
         <div className="container">
-            <div className="row">
-                <div className="col-5">
+            <Row>
+                <Col sm="5">
                     <Card color="secondary">
-                        <CardImg top width="100%" src="#" alt="RANDOM-add image here placeholder image" />
-                        <CardBody>
-                            <CardTitle>Name: </CardTitle>
-                        </CardBody>
-                    </Card>
-
-                </div>
-            </div>
-        </div>
+                    <CardImg top width="100%" src="#" alt="RANDOM-add image here placeholder image" />
+                    <CardBody>
+                        <CardTitle>Title: </CardTitle>
+                    </CardBody>
+                </Card>
+                    </Col>
+                    </Row>
+                    </div>
+                    </Styles>
     );
 };
 

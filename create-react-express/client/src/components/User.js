@@ -1,29 +1,48 @@
-import React from 'react';
+import React from "react";
 import {
-    Card, CardImg, CardBody,
-    CardTitle
-} from 'reactstrap';
+    Card, CardBody,
+    CardTitle, CardText, Row, Col
+} from "reactstrap";
+import styled from "styled-components";
+
+const Styles = styled.div`
+
+.container {
+    margin-right: 50px;
+}
+
+.fas {
+font-size: 100px;
+color: white;
+}
+
+`;
 
 
 const User = (props) => {
     return (
-        <div className="container">
-            <div className="row">
-                <div className="col-5">
-                    <Card color="secondary">
-                        <CardImg top width="100%" src="#" alt="USER-add image here placeholder image" />
-                        <CardBody>
-                            <CardTitle>Name: </CardTitle>
-                        </CardBody>
-                    </Card>
+        <Styles>
+            <div className="container">
+                <Row>
+                    <Col sm="5">
+                        <Card color="secondary">
+                            <CardBody>
+                                <CardTitle><i class="fas fa-user-circle"></i></CardTitle>
+                                <CardText>Name: </CardText>
+                                <CardText>Current Anime: </CardText>
+                            </CardBody>
+                        </Card>
+                    </Col>
+                </Row>
 
-                </div>
             </div>
-        </div>
+        </Styles>
     );
 };
 
 export default User;
+
+
 
 // {/* <Card body inverse color="secondary"></Card>
 // <Card body inverse style={{ backgroundColor: '#333', borderColor: '#333' }}>
