@@ -1,41 +1,26 @@
-import React from "react"
+import React from "react";
 import Carousel from "./components/Carousel";
-import styled from "styled-components";
+// import styled from "styled-components";
 
-const Styles = styled.div`
 
-.App-intro {
-background-color: white;
-}
+// const Styles = styled.div`
 
-// .one {
-//   background-color: black;
-//   color: white;
-//   text-align: left;
-//   margin-right: 1095px;
-//   width: 15%;
+// .App-intro {
+// background-color: white;
 // }
 
-// .second {
-//   background-color: black;
-//   color: white;
-//   text-align: right;
-//   margin-left: 1095px;
-//   width: 15%;
-// }
-`;
+// `;
 
 export const Home = () => (
-<Styles>
+
     <div className="App">
         <p className="App-intro">
           <br></br>
-            <div className="container third">
+            <div className="container">
             <div className="row">
               <div className="col">
                 <Carousel/>
                 <div></div>
-
                 </div>
             </div>
             </div>
@@ -45,5 +30,5 @@ export const Home = () => (
        <p>We are An-Y.</p>
       <p>An Orlando, FL duo team, that consists of Andrew & Yadira</p>
       </div >
-      </Styles>
+      
 )

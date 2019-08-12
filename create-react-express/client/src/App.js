@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./Home";
-import { Profile } from "./Profile";
+import { MeetUp } from "./MeetUp";
 import { Search } from "./Search";
 import { WatchList } from "./WatchList";
 import { NoMatch } from "./NoMatch";
@@ -16,11 +16,10 @@ const Styles = styled.div`
 
 .user {
 color: white;
-// margin-right: 705px;
 }
 
 .random {
-  // margin-left: 805px;
+
   color: white;
 }
 `;
@@ -37,7 +36,7 @@ class App extends Component {
           <Router>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/profile" component={Profile} />
+              <Route path="/meetup" component={MeetUp} />
               <Route path="/search" component={Search} />
               <Route path="/watchlist" component={WatchList} />
               <Route component={NoMatch} />
