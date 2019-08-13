@@ -19,26 +19,26 @@ export default class Example extends React.Component {
           <tr>
             <th scope="row">1</th>
             <td>image</td>
-            <td>number</td>
-            <td>rating</td>
-            <td>word</td>
-            <td>word</td>
+            <td>One Piece</td>
+            <td>10/10</td>
+            <td>tv</td>
+            <td>up to date</td>
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>image</td>
-            <td>number</td>
-            <td>rating</td>
-            <td>word</td>
-            <td>word</td>
+            <td>Ace of Diamonds</td>
+            <td>8/10</td>
+            <td>tv</td>
+            <td>up to date</td>
           </tr>
           <tr>
             <th scope="row">3</th>
             <td>image</td>
-            <td>number</td>
-            <td>rating</td>
-            <td>word</td>
-            <td>word</td>
+            <td>My Hero Academia</td>
+            <td>9/10</td>
+            <td>tv</td>
+            <td>up to date</td>
           </tr>
         </tbody>
       </Table>

@@ -1,9 +1,18 @@
 import React from "react";
 import CardMeetUp from "./components/CardMeetUp";
+import styled from "styled-components";
+
+const Styles = styled.div`
+
+.col box {
+
+}
+
+`;
 
 
 export const MeetUp = () => (
-
+<Styles>
         <div className="App">
 
             <div className="container">
@@ -21,5 +30,6 @@ export const MeetUp = () => (
             </div>
 
             </div>
+            </Styles>
   
         )
