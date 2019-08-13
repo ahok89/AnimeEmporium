@@ -8,8 +8,6 @@ import { WatchList } from "./WatchList";
 import { NoMatch } from "./NoMatch";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./components/NavigationBar";
-import Random from "./components/Random";
-import User from "./components/User";
 import styled from "styled-components";
 
 const Styles = styled.div`
@@ -43,19 +41,6 @@ class App extends Component {
             </Switch>
           </Router>
 
-          <div className="container">
-            <div className="row">
-              <div className="col user">
-                <br></br>
-                <User />
-              </div>
-
-              <div className="col random">
-              <br></br>
-                <Random />
-              </div>
-            </div>
-          </div>
         </React.Fragment>
       </Styles>
     );

@@ -20,7 +20,7 @@ const User = (props) => {
         <Styles>
             <div className="container">
                 <Row>
-                    <Col sm="5">
+                    <Col>
                         <Card color="secondary">
                             <CardBody>
                                 <CardTitle><i class="fas fa-user-circle"></i></CardTitle>
