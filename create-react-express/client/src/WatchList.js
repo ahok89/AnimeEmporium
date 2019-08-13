@@ -5,7 +5,7 @@ import Random from "./components/Random";
 
 
 export const WatchList = () => (
-<div className="container">
+<div>
 <div className="row">
     <div className="col">
     <User />

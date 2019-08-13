@@ -12,14 +12,6 @@ import styled from "styled-components";
 
 const Styles = styled.div`
 
-.user {
-color: white;
-}
-
-.random {
-
-  color: white;
-}
 `;
 
 

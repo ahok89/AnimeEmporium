@@ -19,6 +19,7 @@ const Styles = styled.div`
 .name {
 color: white;
 font-size: 50px;
+font-family: 'Milonga', cursive;
 }
 `;
 
