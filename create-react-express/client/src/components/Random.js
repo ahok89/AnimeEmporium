@@ -17,7 +17,7 @@ const Random = (props) => {
         <Styles>
         <div className="container">
             <Row>
-                <Col sm="5">
+                <Col>
                     <Card color="secondary">
                     <CardImg top width="100%" src="#" alt="RANDOM-add image here placeholder image" />
                     <CardBody>

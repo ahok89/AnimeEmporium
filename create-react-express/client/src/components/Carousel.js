@@ -35,8 +35,11 @@ class CarouselEx extends Component {
     this.onExiting = this.onExiting.bind(this);
     this.onExited = this.onExited.bind(this);
   }
+//  const class pause =.CarouselEx('pause') {
 
-  onExiting() {
+//  }
+
+  onExiting(pause) {
     this.animating = false;
   }
 

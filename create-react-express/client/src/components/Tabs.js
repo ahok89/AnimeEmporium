@@ -1,8 +1,8 @@
 import React from "react";
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from "reactstrap";
 import classnames from "classnames";
-import Table from "../components/Table";
-import Table2 from "../components/Table2";
+import TableWatching from "./TableWatching";
+import TableCompleted from "./TableCompleted";
 
 export default class Tabs extends React.Component {
   constructor(props) {
@@ -48,7 +48,7 @@ export default class Tabs extends React.Component {
           <TabPane tabId="1">
             <Row>
               <Col sm="12">
-                <Table />
+                <TableWatching />
               </Col>
             </Row>
           </TabPane>
@@ -56,7 +56,7 @@ export default class Tabs extends React.Component {
           <TabPane tabId="2">
             <Row>
               <Col sm="12">
-                <Table2 />
+                <TableCompleted />
               </Col>
             </Row>
           </TabPane>

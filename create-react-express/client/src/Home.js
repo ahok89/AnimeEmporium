@@ -1,5 +1,7 @@
 import React from "react";
 import Carousel from "./components/Carousel";
+import Random from "./components/Random";
+import User from "./components/User";
 // import styled from "styled-components";
 
 
@@ -14,21 +16,25 @@ import Carousel from "./components/Carousel";
 export const Home = () => (
 
     <div className="App">
-        <p className="App-intro">
-          <br></br>
-            <div className="container">
+            
             <div className="row">
               <div className="col">
-                <Carousel/>
-                <div></div>
+                <User />
                 </div>
+              <div className="col">
+                <Carousel />
+                </div>
+              <div className="col">
+                <Random />
+                </div>
+
             </div>
-            </div>
+            
         
+
 <br></br>
-</p>
        <p>We are An-Y.</p>
       <p>An Orlando, FL duo team, that consists of Andrew & Yadira</p>
-      </div >
+    </div >
       
-)
+);

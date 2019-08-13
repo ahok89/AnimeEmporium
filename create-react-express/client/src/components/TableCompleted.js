@@ -22,7 +22,7 @@ export default class Example extends React.Component {
             <td>Lupin the 3rd</td>
             <td>10/10</td>
             <td>tv</td>
-            <td>complete(but on going)</td>
+            <td>complete (but on going series)</td>
           </tr>
           <tr>
             <th scope="row">2</th>

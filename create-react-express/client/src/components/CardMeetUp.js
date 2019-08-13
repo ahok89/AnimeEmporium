@@ -23,7 +23,7 @@ const MainCard = (props) => {
         <React.Fragment>
         <div className="container">
             <div className="row">
-                <div className="col-5">
+                <div className="col">
                     <Card body outline color="secondary">
                         <CardImg className="img" top width="100%" src="https://www.pngkey.com/png/detail/125-1252177_kawaii-die-cut-vinyl-stickers-kawaii-stickers-black.png" alt="placeholder image" />
                         <CardBody>
@@ -44,17 +44,18 @@ const MainCard = (props) => {
                                 <FormGroup row>
                                     <Label for="exampleSelectMulti">Top 3 Favorite Anime</Label>
                                     <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
-                                        <option>1)Lupin the 3rd</option>
-                                        <option>2)Ouran High School Host Club</option>
-                                        <option>3)Cowboy Bepop</option>
+                                        <option>1) Lupin the 3rd</option>
+                                        <option>2) Ouran High School Host Club</option>
+                                        <option>3) Cowboy Bepop</option>
                                     </Input>
                                 </FormGroup>
                                 <Button>Chat Now <i class="far fa-comment-dots"></i></Button>
                                 <br></br>
-                                <CardLink href="#">Edit</CardLink>
+                                <CardLink href="/meetup">Edit</CardLink>
                             </CardText>
                         </CardBody>
                     </Card>
+                    <br></br>
 
                 </div>
             </div>
