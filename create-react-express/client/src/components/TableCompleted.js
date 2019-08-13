@@ -1,10 +1,11 @@
 import React from "react";
 import { Table } from "reactstrap";
+import FormScore from "../components/FormScore";
 
 export default class Example extends React.Component {
   render() {
     return (
-      <Table responsive>
+      <Table responsive hover>
         <thead>
           <tr>
             <th>#</th>
@@ -20,15 +21,15 @@ export default class Example extends React.Component {
             <th scope="row">1</th>
             <td>image</td>
             <td>Lupin the 3rd</td>
-            <td>10/10</td>
+            <td><FormScore/>/ 10</td>
             <td>tv</td>
-            <td>complete (but on going series)</td>
+            <td>complete</td>
           </tr>
           <tr>
             <th scope="row">2</th>
             <td>image</td>
             <td>Yu Yu Hakusho</td>
-            <td>8/10</td>
+            <td><FormScore/>/ 10</td>
             <td>tv</td>
             <td>complete</td>
           </tr>
@@ -36,7 +37,7 @@ export default class Example extends React.Component {
             <th scope="row">3</th>
             <td>image</td>
             <td>Cowboy Bepop</td>
-            <td>9/10</td>
+            <td><FormScore/>/ 10</td>
             <td>tv</td>
             <td>complete</td>
           </tr>

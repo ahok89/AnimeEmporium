@@ -8,21 +8,21 @@ import Random from "./components/Random";
 
 export const Search = () => (
 
-  <div className="container">
+  <div >
     <h1>Search Results</h1>
     <br></br>
     <Row>
-      <Col sm="4">
+      <Col sm="3">
         <User />
         <br></br>
         <CardGenre />
       </Col>
 <br></br>
-      <Col sm="4">
+      <Col sm="6">
         <CardSearch />
       </Col>
 
-      <Col sm="4">
+      <Col sm="3">
         <Random />
       </Col>
     </Row>
