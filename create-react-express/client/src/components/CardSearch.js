@@ -18,7 +18,7 @@ const SearchCard = (props) => {
       <Card>
         <CardImg top width="100%" src="https://dw9to29mmj727.cloudfront.net/promo/2016/5256-SeriesHeaders_OPM_2000x800.jpg" alt="Card image cap" />
         <CardBody>
-        <CardTitle>TITLE: One Punch Man</CardTitle>
+        <CardTitle>TITLE: One Punch Man: Road to Hero</CardTitle>
           <CardText>DESCRIPTION: Before Saitama became the man he is today, he trained and fought endlessly to become a hero. While every scuffle leaves his tracksuit uniform in tatters, he always has it mended for free thanks to his local tailor. One day, however, the tailor informs him that he must close up shop due to pressure from a local gang. Saitama decides to help him out—and gains something irreplaceable in the process.</CardText>
         </CardBody>
       </Card>
