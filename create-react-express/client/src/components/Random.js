@@ -19,9 +19,9 @@ const Random = (props) => {
             <Row>
                 <Col>
                     <Card color="secondary">
-                    <CardImg top width="100%" src="#" alt="RANDOM-add image here placeholder image" />
+                    <CardImg top width="100%" src="./images/doraemon.jpg" alt="RANDOM-add image here placeholder image" />
                     <CardBody>
-                        <CardTitle>Title: </CardTitle>
+                        <CardTitle>Doraemon </CardTitle>
                     </CardBody>
                 </Card>
                     </Col>

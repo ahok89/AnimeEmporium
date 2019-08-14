@@ -10,18 +10,15 @@ import {
 const items = [
   {
     src: './images/drstone.jpg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
+    caption: 'Dr. Stone'
   },
   {
     src: './images/enen.jpg',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
+    caption: 'Fire Force'
   },
   {
     src: './images/karakai.jpg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
+    caption: 'Karakai Jouzu no Takagi-san 2'
   }
 ];
 
@@ -72,7 +69,7 @@ class Example extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+          <CarouselCaption  captionHeader={item.caption} />
         </CarouselItem>
       );
     });
