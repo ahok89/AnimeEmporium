@@ -2,21 +2,24 @@ import React from "react";
 import Tabs from "./components/Tabs";
 import CardMeetUp from "./components/CardMeetUp";
 import Random from "./components/Random";
+import { Row, Col } from "reactstrap";
 
 
 export const WatchList = () => (
-<div>
-<div className="row">
-    <div className="col">
+<div className="container">
+<Row>
+    <Col sm="3">
     <CardMeetUp />
-    </div>
-    <div className="col">
+    </Col>
+
+    <Col sm="6">
     <Tabs />
-    </div>
-    <div className="col">
+    </Col>
+
+    <Col sm="3">
     <Random />
-    </div>
-</div>
+    </Col>
+</Row>
 </div>
 
 )

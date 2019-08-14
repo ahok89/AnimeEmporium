@@ -1,7 +1,7 @@
 import React from "react";
 import CardMeetUp from "./components/CardMeetUp";
-import User from "./components/User";
 import Random from "./components/Random";
+import { Row, Col } from "reactstrap";
 import styled from "styled-components";
 
 const Styles = styled.div`
@@ -14,31 +14,26 @@ const Styles = styled.div`
 
 
 export const MeetUp = () => (
-<Styles>
-        <div className="App">
+    <Styles>
+        <div className="container">
+            <h2>Meet Ups</h2>
+            <br></br>
 
-            <div className="container">
-                <div className="row">
-                    <div className="col">
-                        <h2>Meet Ups</h2>
-                    </div>
-                </div>
+            <Row>
+                <Col sm="3">
+                    <CardMeetUp />
+                </Col>
 
-                <div className="row">
-                    <div className="col">
-                        <User />
-                    </div>
+                <Col sm="6">
+                    board
+                </Col>
 
-                    <div className="col">
-                        <CardMeetUp />
-                    </div>
-                    <div className="col">
-                        <Random />
-                    </div>
-                </div>
-            </div>
+                <Col sm="3">
+                    <Random />
+                </Col>
+            </Row>
+        </div>
 
-            </div>
-            </Styles>
-  
-        )
+    </Styles>
+
+)

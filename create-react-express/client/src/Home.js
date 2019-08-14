@@ -15,26 +15,26 @@ import CardMeetUp from "./components/CardMeetUp";
 
 export const Home = () => (
 
-    <div className="App">
-            
+  <div className="App">
+    <div className="container">
             <div className="row">
-              <div className="col">
-                <CardMeetUp />
-                </div>
-              <div className="col">
-                <Carousel />
-                </div>
-              <div className="col">
-                <Random />
-                </div>
+              <div className="col-3">
+                    <CardMeetUp />
+                      </div>
+    <div className="col-6">
+      <Carousel />
+    </div>
+    <div className="col-3">
+      <Random />
+    </div>
+</div>
+</div>
 
-            </div>
-            
-        
 
-<br></br>
-       <p>We are An-Y</p>
-      <p>An Orlando, FL duo team, that consists of Andrew & Yadira</p>
-    </div >
-      
+    <br></br>
+    
+    <p>We are An-Y</p>
+    <p>An Orlando, FL duo team, that consists of Andrew & Yadira</p>
+  </div >
+
 );

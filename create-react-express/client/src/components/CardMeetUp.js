@@ -45,7 +45,7 @@ const MainCard = (props) => {
                                     <Label for="exampleSelectMulti">Top 3 Favorite Anime</Label>
                                     <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
                                         <option>1) Lupin the 3rd</option>
-                                        <option>2) Ouran High School Host Club</option>
+                                        <option>2) Sailor Moon</option>
                                         <option>3) Cowboy Bepop</option>
                                     </Input>
                                 </FormGroup>
