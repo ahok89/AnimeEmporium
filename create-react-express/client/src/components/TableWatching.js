@@ -23,7 +23,7 @@ export default class Example extends React.Component {
             <td>One Piece</td>
             <td> <FormScore/>/ 10</td>
             <td>tv</td>
-            <td>up to date</td>
+            <td>On Episode: 897</td>
           </tr>
           <tr>
             <th scope="row">2</th>
@@ -31,7 +31,7 @@ export default class Example extends React.Component {
             <td>My Hero Academia</td>
             <td><FormScore/>/ 10</td>
             <td>tv</td>
-            <td>up to date</td>
+            <td>Waiting for Next Season</td>
           </tr>
           <tr>
             <th scope="row">3</th>
@@ -39,7 +39,7 @@ export default class Example extends React.Component {
             <td>Boruto</td>
             <td><FormScore/>/ 10</td>
             <td>tv</td>
-            <td>up to date</td>
+            <td>Waiting for Next Season</td>
           </tr>
         </tbody>
       </Table>
