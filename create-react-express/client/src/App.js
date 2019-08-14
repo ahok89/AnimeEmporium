@@ -3,8 +3,15 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Home } from "./Home";
 import { MeetUp } from "./MeetUp";
-import { Search } from "./Search";
 import { WatchList } from "./WatchList";
+import { Search } from "./Search";
+
+
+import { BokuResults } from "./BokuResults";
+
+
+
+
 import { NoMatch } from "./NoMatch";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./components/NavigationBar";
@@ -28,6 +35,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/meetup" component={MeetUp} />
               <Route path="/search" component={Search} />
+              <Route path="/bokuresults" component={BokuResults} />
               <Route path="/watchlist" component={WatchList} />
               <Route component={NoMatch} />
             </Switch>
