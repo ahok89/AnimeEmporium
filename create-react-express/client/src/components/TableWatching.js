@@ -39,7 +39,7 @@ export default class Example extends React.Component {
             <td>Boruto</td>
             <td><FormScore/>/ 10</td>
             <td>tv</td>
-            <td>Waiting for Next Season</td>
+            <td>On Episdose: 119</td>
           </tr>
         </tbody>
       </Table>
