@@ -16,7 +16,7 @@ const Styles = styled.div`
 export const MeetUp = () => (
     <Styles>
         <div className="container">
-            <h2>Meet Ups</h2>
+            <h2>Meetups</h2>
             <br></br>
 
             <Row>
