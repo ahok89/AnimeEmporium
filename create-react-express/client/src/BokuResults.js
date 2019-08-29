@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "reactstrap";
 import CardBoku from "./components/CardBoku";
-import CardMeetUp from "./components/CardMeetUp";
+import CardProfile from "./components/CardProfile";
 import CardBokuDetails from "./components/CardBokuDetails";
 import CardBokuVideo from "./components/CardBokuVideo";
 import Random from "./components/Random";
@@ -12,7 +12,7 @@ export const BokuResults = () => (
     <div className="container">
         <Row>
             <Col sm="3">
-                <p><CardMeetUp /></p>
+                <p><CardProfile /></p>
             </Col>
             <Col sm="4">
                 <p><CardBoku /></p>

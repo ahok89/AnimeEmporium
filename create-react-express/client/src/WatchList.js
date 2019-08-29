@@ -1,6 +1,6 @@
 import React from "react";
 import Tabs from "./components/Tabs";
-import CardMeetUp from "./components/CardMeetUp";
+import CardProfile from "./components/CardProfile";
 import Random from "./components/Random";
 import { Row, Col } from "reactstrap";
 
@@ -9,7 +9,7 @@ export const WatchList = () => (
 <div className="container">
 <Row>
     <Col sm="3">
-    <CardMeetUp />
+    <CardProfile />
     </Col>
 
     <Col sm="6">

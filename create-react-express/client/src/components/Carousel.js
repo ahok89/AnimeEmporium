@@ -9,16 +9,16 @@ import {
 
 const items = [
   {
-    src: './images/drstone.jpg',
+    src: './images/drstone6.jpg',
     caption: 'Dr. Stone'
   },
   {
-    src: './images/enen.jpg',
+    src: './images/fireforce-5.jpg',
     caption: 'Fire Force'
   },
   {
-    src: './images/karakai.jpg',
-    caption: 'Karakai Jouzu no Takagi-san 2'
+    src: './images/karakai3.jpg',
+    caption: 'Karakai Jouzu no Takagi-san2'
   }
 ];
 
@@ -69,7 +69,7 @@ class Example extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption  captionHeader={item.caption} />
+          <CarouselCaption className="text-danger"  captionHeader={item.caption} />
         </CarouselItem>
       );
     });

@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from "./components/Carousel";
 import Random from "./components/Random";
-import CardMeetUp from "./components/CardMeetUp";
+import CardProfile from "./components/CardProfile";
 // import styled from "styled-components";
 
 
@@ -19,7 +19,7 @@ export const Home = () => (
     <div className="container">
             <div className="row">
               <div className="col-3">
-                    <CardMeetUp />
+                    <CardProfile />
                       </div>
     <div className="col-6">
       <Carousel />

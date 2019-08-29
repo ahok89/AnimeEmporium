@@ -5,13 +5,7 @@ import { Home } from "./Home";
 import { MeetUp } from "./MeetUp";
 import { WatchList } from "./WatchList";
 import { Search } from "./Search";
-
-
 import { BokuResults } from "./BokuResults";
-
-
-
-
 import { NoMatch } from "./NoMatch";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavigationBar from "./components/NavigationBar";

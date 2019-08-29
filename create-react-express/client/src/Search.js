@@ -2,7 +2,7 @@ import React from "react";
 import CardSearch from "./components/CardSearch";
 import CardGenre from "./components/CardGenre";
 import { Row, Col } from "reactstrap";
-import CardMeetUp from "./components/CardMeetUp";
+import CardProfile from "./components/CardProfile";
 import Random from "./components/Random";
 
 
@@ -13,7 +13,7 @@ export const Search = () => (
     <br></br>
     <Row>
       <Col sm="3">
-        <CardMeetUp />
+        <CardProfile />
         <br></br>
         <CardGenre />
       </Col>
